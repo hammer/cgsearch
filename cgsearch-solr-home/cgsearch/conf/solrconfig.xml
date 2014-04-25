@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <luceneMatchVersion>4.7</luceneMatchVersion>
+  <requestHandler name="/select" class="solr.SearchHandler"/>
+  <requestHandler name="/update" class="solr.UpdateRequestHandler"/>
+  <requestHandler name="/admin" class="solr.admin.AdminHandlers"/>
+</config>

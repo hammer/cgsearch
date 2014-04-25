@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="cgsearch" version="1.5">
+  <types>
+    <fieldType name="string" class="solr.StrField"/>
+  </types>
+  <fields>
+    <field name="id" type="string" indexed="true" stored="true" required="true" multiValued="false" />
+    <field name="disease_abbr" type="string"/>
+  </fields>
+  <uniqueKey>id</uniqueKey>
+</schema>
